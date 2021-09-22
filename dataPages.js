@@ -1,5 +1,6 @@
 import PageHeader from "./PageHeader.js";
 
+
 const leadWellPage = new PageHeader(
         "To be seen makes you grow",
         "Home",
@@ -9,7 +10,7 @@ const leadWellPage = new PageHeader(
         "Work Feed",
         "Contact Us",
         "../images/growthBuisness.svg",
-        "Headline for the picture",
+        "Team lifting arrow",
 );
 
 const workCraft = new PageHeader(       
@@ -23,6 +24,9 @@ const workCraft = new PageHeader(
 "../images/growthBuisness.svg",
 "Headline for the picture",
 );
+
+
+
 
 const pageObjectArray = [leadWellPage, workCraft];
 

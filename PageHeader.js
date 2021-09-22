@@ -32,12 +32,12 @@
     let pageHeaderContent = `
     <h1> ${this.wordZero} </h1>
     <ul id="nav">
-    <li><a href="${this.wordOne}.html" >${this.wordOne}</a></li>
-    <li><a href="${this.wordTwo}.html" >${this.wordTwo}</a></li>
-    <li><a href="${this.wordThree}.html" >${this.wordThree}</a></li>
-    <li><a href="${this.wordFour}.html" >${this.wordFour}</a></li>
-    <li><a href="${this.wordFive}.html" >${this.wordFive}</a></li>
-    <li><a href="${this.wordSix}.html" >${this.wordSix}</a></li>
+    <li><a "${this.wordOne}" >${this.wordOne}</a></li>
+    <li><a "${this.wordTwo}" >${this.wordTwo}</a></li>
+    <li><a "${this.wordThree}" >${this.wordThree}</a></li>
+    <li><a "${this.wordFour}" >${this.wordFour}</a></li>
+    <li><a "${this.wordFive}" >${this.wordFive}</a></li>
+    <li><a "${this.wordSix}" >${this.wordSix}</a></li>
     </ul>
     `;
         return pageHeaderContent;
